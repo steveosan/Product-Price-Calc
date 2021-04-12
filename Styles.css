@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-color: rgb(110, 110, 202);
+      font-family: comic sans ms;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .column2 {
+    float: right;
+    width: 25%;
+    padding: 10px;
+  }
+  #container{
+      border: solid;
+      border-color: black;
+      margin-left: 25%;
+      margin-right: 25%;
+      background-color: rgb(245, 250, 255);
+      margin-top: 5%;
+      border-radius: 15px;
+  }
+
+input[type=number]{
+    width: 50px;
+}
+#main{
+    text-align: center;
+}
+
